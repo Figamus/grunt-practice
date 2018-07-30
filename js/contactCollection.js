@@ -23,7 +23,7 @@ let contacts = [
 localStorage.setItem("contacts", JSON.stringify(contacts));
 
 function getContacts(){
-    JSON.parse(localStorage.getItem("contacts"));
+    return JSON.parse(localStorage.getItem("contacts"));
 };
 
 module.exports = getContacts;

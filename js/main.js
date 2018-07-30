@@ -1,5 +1,5 @@
 "use strict";
 
-let data = require("./contactCollection");
+let listContacts = require("./contactList");
 
-data();
+listContacts();
